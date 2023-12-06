@@ -1,0 +1,40 @@
+    /* Reset some default browser styles */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 1000px;
+}
+
+/* Apply styles to the banner */
+.banner {
+    position:relative;
+    background-color: #f0f0f0; /* Set your desired background color */
+    padding: 20px;
+    text-align: center;
+    top: 0px;
+    z-index: 100;
+    width:max-content;
+    
+}
+
+h1 {
+    color: #333; /* Set your desired text color */
+}
+
+p {
+    color: #555; /* Set your desired text color */
+}
+
+.button {
+    position:static;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #007bff; /* Set your desired button background color */
+    color: #fff; /* Set your desired button text color */
+    border-radius: 4px; /* Add rounded corners if desired */
+    text-align: center;
+}
