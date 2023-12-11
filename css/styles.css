@@ -135,5 +135,14 @@ li {
 
 }
 body, html {
-    overflow-x: hidden;
+    overflow-wrap:break-word;
+    overflow-x:hidden;
+    
+}
+ul{
+    list-style:decimal-leading-zero;
+
+}
+ol{
+    list-style:disc;
 }
