@@ -9,13 +9,16 @@ body, h1, p, a {
 
 /* Apply styles to the banner */
 .banner {
-    position:relative;
+    position:fixed;
+    display:inline-block;
     background-color: #f0f0f0; /* Set your desired background color */
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     top: 0px;
     z-index: 100;
-    width:max-content;
+    width:100%;
+    overflow-x: hidden;
+    
     
 }
 
